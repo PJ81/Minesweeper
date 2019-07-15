@@ -1,0 +1,9 @@
+body{font-family:'Oxygen Mono',monospace;text-align:center}
+#board{margin:auto;width:800px;height:600px;text-align:center}
+.cellC, .cellO, #restart, #mines, #time{cursor:default;width:146px;height:50px;font-size:24px;line-height:50px;text-align:center;border:2px solid gray;border-radius:5px;float:left}
+#mines{float:right}
+#msg{padding:20px;display:none;text-shadow:#8b6c44 2px 2px;font-size:100px;position:absolute;top:289px;left:50%;margin-left:-501px;background-color:rgb(247, 190, 117);border:2px solid rgb(75, 33, 3);border-radius:7px;color:rgb(75, 33, 3)}
+#field{margin:auto;margin-top:8px}
+#restart{float:none;width:60px;margin:auto;font-size:36px;cursor:pointer}
+.cellC{border-color:gray;width:50px;margin:1px;background-color:lightgray;cursor:pointer;font-size:36px;text-shadow:2px 2px #777}
+.cellO{border-color:gray;width:50px;margin:1px;background-color:#eee;cursor:default;font-size:36px;text-shadow:2px 2px #888}
